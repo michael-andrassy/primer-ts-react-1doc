@@ -1,0 +1,9 @@
+// Define a primary color variable
+$primary-color: #e00;
+
+// Define a mixin for horizontal centering
+@mixin center-horizontally {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

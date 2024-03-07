@@ -1,0 +1,16 @@
+@import '../styles/global';
+
+.listofrecords {
+  text-align: center;
+
+  .centered-content {
+    @include center-horizontally; // Use the globally defined mixin
+  }
+}
+
+.listofrecords > table {
+  border-width: 1px;
+  border-style: solid;
+  border-color: $primary-color; // Use the global primary color variable
+  border-radius: 2px;
+}
